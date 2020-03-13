@@ -1,0 +1,1 @@
+web: gunicorn --pythonpath linebot1 linebot1.wsgi
