@@ -42,7 +42,7 @@ def getTrain(start='臺中',end='高雄'):
     today=time.strftime('%Y/%m/%d')
     stime=time.strftime("%H:%M", time.localtime()) 
     print(stime)
-    sTime='20:00'
+    sTime=stime
     eTime='23:59'
 
     start_station=station[start]
